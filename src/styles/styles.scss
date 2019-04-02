@@ -1,0 +1,62 @@
+@import 'user-page';
+
+/* Variables */
+$vin-blue: #5bb7db;
+$vin-green: #60b044;
+$vin-red: #ff0000;
+
+/* Fonts */
+@font-face {
+    font-family: 'wizard_of_the_moonregular';
+    src: url('fonts/wizard-of-the-moon/wizard_of_the_moon-webfont.woff2') format('woff2'),
+         url('fonts/wizard-of-the-moon/wizard_of_the_moon-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+#app { padding: 0; }
+/* Styles */
+#header {
+  font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  line-height: 1.4em;
+  color: #4d4d4d;
+  min-width: 230px;
+  margin: 0 auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  font-weight: 300;
+}
+
+body {
+  font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  line-height: 1.4em;
+  color: #4d4d4d;
+  margin: 0 auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  font-weight: 300;
+}
+
+td {
+	padding: 12px;
+}
+h1 {
+   font: 24px 'wizard_of_the_moonregular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+h2 {
+	color: $vin-blue;
+}
+
+input.small { width: 46px; }
+
+.hidden {
+  display: none;
+}
+.list-of-users li,
+.list-of-skill li {
+  font-size: 20px;
+  margin: 0;
+}
